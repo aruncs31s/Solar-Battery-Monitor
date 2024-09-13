@@ -48,4 +48,4 @@ $$
 
 #### Circuit
 
-![Circuit Diagram](./images/circuit%20diagram.png?raw=true)
+![Circuit Diagram](./images/circuit%20diagram.png)
