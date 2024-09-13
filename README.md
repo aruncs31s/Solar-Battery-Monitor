@@ -29,7 +29,7 @@ Components:
 - **ESP32 ADC**: It is the voltage measured using just `analogRead`
 
 $$
-V_{out}= \frac {analogRead(adc_pin) \times V_{ref} }{ADC_MAX_12}
+V_{out}= \frac {adc_reading \times V_{ref} }{ADC_MAX_12}
 $$
 
 #### Normal Reading
