@@ -32,6 +32,10 @@ $$
 V_{out} = \frac{adcReading \times V_{ref}}{ADC\_MAX\_12}
 $$
 
+**ESP32 with error factor**: In this we multiply a `error factor` with the obtained result the `error factor` is calculate using the following
+
+1. Provide
+
 #### Normal Reading
 
 ![Normal Reading](./images/simple_reading.png?raw=true)
@@ -41,3 +45,7 @@ $$
 #### With Error Correction and ADC_Offset
 
 ![with correction](./images/with%20correction.png?raw=true)
+
+#### Circuit
+
+![Circuit Diagram](./images/circuit%20diagram.png?raw=true)
