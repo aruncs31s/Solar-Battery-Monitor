@@ -25,11 +25,11 @@ Components:
 | 14.04 | 13.5      | 13.91                   | 13.93            |
 | 15.02 | 14.55     | 15.00                   | 15.04            |
 
-- **Input**: Input is the output voltage of DC up converter
-- **ESP32 ADC**: It is the voltage measured using just `analogRead`
+**Input**: Input is the output voltage of DC up converter
+**ESP32 ADC**: It is the voltage measured using just `analogRead`
 
 $$
-V_{out}= \frac {adc_reading \times V_{ref} }{ADC_MAX_12}
+V_{out} = \frac{adc\_reading \times V_{ref}}{ADC\_MAX\_12}
 $$
 
 #### Normal Reading
